@@ -1,0 +1,21 @@
+2011-01-10  Mahdi Sadeghi  <sadeghi.mahdi@gmail.com>
+
+	* librcsc-4.0.0 new configure script
+	* Agent2D-2.1.0 new configure script
+	* Agent2D-2.1.0 INSTALL
+
+2011-01-09  Mahdi Sadeghi  <sadeghi.mahdi@gmail.com>
+
+	* librcsc-4.0.0 added
+
+
+2011-01-08  Mahdi Sadeghi  <sadeghi.mahdi@gmail.com>
+
+	* Agent2D-2.1.0 new partitioning
+	* Agent2D-2.1.0 new Makefiles
+	* Agent2D-2.1.0 AUTHORS
+	* Agent2D-2.1.0 COPYNG.LESSER
+	* Agent2D-2.1.0 INSTALL
+	* Agent2D-2.1.0 start
+	* Agent2D-2.1.0 kill
+

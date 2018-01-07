@@ -1,0 +1,26 @@
+#! /bin/bash
+
+mkdir package
+cp -r formations-dt package
+cp sample_player package
+cp ./start.shh package
+cp ./kill.sh package
+cp player.conf package
+cp coach.conf package
+cp Options.conf package
+cd package
+mv player.conf Player.conf
+mv coach.conf Coach.conf
+mv ./start.shh ./start
+mv ./kill.sh ./kill
+mv formations-dt Formations
+mkdir Configs
+mv Player.conf Configs
+mv Coach.conf Configs
+mv Options.conf Configs
+strip sample_player
+mv sample_player NADCO
+cd ..
+tar -cvzf pack-`date +%Y_%m_%d-%H_%M`.tar.gz package
+rm -r package
+echo 'Binary Packed!'

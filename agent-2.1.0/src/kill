@@ -1,0 +1,3 @@
+#! /bin/bash
+
+killall sample_player -9
